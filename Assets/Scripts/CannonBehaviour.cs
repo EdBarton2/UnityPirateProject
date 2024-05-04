@@ -25,6 +25,7 @@ public class CannonBehaviour : MonoBehaviour
             ShowUI();
             if (Input.GetKeyDown(KeyCode.F))
             {
+                Debug.Log("F");
                 ShootCannon();
             }
 
